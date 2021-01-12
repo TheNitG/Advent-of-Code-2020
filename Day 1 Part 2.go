@@ -10,7 +10,7 @@ import (
 )
 
 /*
-Executes the code to find the two numbers adding up to 2020 and also what their product is
+Executes the code to find the three numbers adding up to 2020 and also what their product is
 */
 func main() {
 	// Opens the input text file
@@ -39,28 +39,30 @@ func main() {
 		// Appends the current number to the integer array
 		numbers = append(numbers, number)
 	}
-	// Calls the method that finds which two numbers add up to 2020
-	num1, num2 := find2020(numbers)
-	// Prints the two numbers, their sum, and their product all in a friendly way
-	fmt.Printf("%[1]d + %[2]d = 2020, %[1]d * %[2]d = %[3]d", num1, num2, num1*num2)
+	// Calls the method that finds which three numbers add up to 2020
+	num1, num2, num3 := find3Num(numbers)
+	// Prints the three numbers, their sum, and their product all in a friendly way
+	fmt.Printf("%[1]d + %[2]d + %[3]d = 2020, %[1]d * %[2]d * %[3]d = %[4]d", num1, num2, num3, num1*num2*num3)
 }
 
 /*
-Method that finds the two numbers that add up to 2020 and returns them, else returns 0, 0 if no match is found
+Method that finds the three numbers that add up to 2020 and returns them, else returns 0, 0, 0 if no match is found
 */
-func find2020(data []int) (int, int) {
+func find3Num(data []int) (int, int, int) {
 	// Length of the integer array
 	length := len(data)
 	// Nested for loop that tries each combination of numbers to find the pair that adds up to 2020
 	for indexX := 0; indexX < length; indexX++ {
 		for indexY := 0; indexY < length; indexY++ {
-			num1, num2 := data[indexX], data[indexY]
-			if num1+num2 == 2020 {
-				// Returns when a match is found
-				return num1, num2
+			for indexZ := 0; indexZ < length; indexZ++ {
+				num1, num2, num3 := data[indexX], data[indexY], data[indexZ]
+				if num1+num2+num3 == 2020 {
+					// Returns when a match is found
+					return num1, num2, num3
+				}
 			}
 		}
 	}
-	// Returns 0, 0 if no match is found
-	return 0, 0
+	// Returns 0, 0, 0 if no match is found
+	return 0, 0, 0
 }
