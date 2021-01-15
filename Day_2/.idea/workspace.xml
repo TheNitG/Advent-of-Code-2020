@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c326ec2-0378-4bb8-ace2-3e010d7fd453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day_2_Part_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5c326ec2-0378-4bb8-ace2-3e010d7fd453" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610443051520</updated>
       <workItem from="1610443076782" duration="2327000" />
-      <workItem from="1610524299184" duration="1060000" />
+      <workItem from="1610524299184" duration="1169000" />
     </task>
     <task id="LOCAL-00001" summary="Set up Day 2 part 1">
       <created>1610443356206</created>
@@ -116,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610444760445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished Day 2 part 2">
+      <created>1610525466575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610525466575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,10 +153,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up Day 2 part 1" />
     <MESSAGE value="Finished Day 2 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Day 2 part 1" />
+    <MESSAGE value="Finished Day 2 part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Day 2 part 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Day_2$Day_2_Part_1.coverage" NAME="Day_2_Part_1 Coverage Results" MODIFIED="1610444681859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Day_2$Day_2_Part_2.coverage" NAME="Day_2_Part_2 Coverage Results" MODIFIED="1610525219019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day_2$Day_2_Part_2.coverage" NAME="Day_2_Part_2 Coverage Results" MODIFIED="1610525447116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
