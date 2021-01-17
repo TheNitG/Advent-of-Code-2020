@@ -8,8 +8,8 @@ This repository stores my solutions to Advent of Code 2020.
 ‣ [Part 1](Day_2/Day_2_Part_1.py)\
 ‣ [Part 2](Day_2/Day_2_Part_2.py)
 ### [Day 3](Day_3/)
-‣ [Part 1](Day_3/Day_3_Part_1.go)\
-‣ [Part 2](Day_3/Day_3_Part_2.go)
+‣ [Part 1](Day_3/Day_3_Part_1.py)\
+‣ [Part 2](Day_3/Day_3_Part_2.py)
 ### [Day 4](Day_4/)
 ‣ [Part 1](Day_4/Day_4_Part_1.py)\
 ‣ [Part 2](Day_4/Day_4_Part_2.py)
